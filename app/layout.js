@@ -15,6 +15,7 @@ export default async function RootLayout({ children }) {
       <body>
         <Layout
           navbar={navbar}
+          sidebar={{ autoCollapse: true, defaultMenuCollapseLevel: 1 }}
           pageMap={await getPageMap()}
           docsRepositoryBase='https://github.com/shuding/nextra/tree/main/docs'
           footer={footer}>
