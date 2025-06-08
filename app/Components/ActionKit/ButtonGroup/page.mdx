@@ -3,6 +3,114 @@ title: Button Group
 description: JobHai unified design system Button Group
 ---
 
-# Introduction
- 
-Hello, world! 
+import { Button } from '@/components/ui/button';
+
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
+import { ChevronDownIcon, PlusIcon } from 'lucide-react';
+import Ownership from '@/components/ui/ownership';
+
+### Overview
+
+Button groups allow multiple related actions to be organized together in different configurations. They provide a consistent way to present a set of actions to users.
+
+### Variants
+
+We have several button group configurations:
+
+- `Single Button`
+- `Double Button - Horizontal`
+- `Double Button - Vertical`
+- `Triple Button`
+- `With Options`
+
+#### Single Button
+
+<div className='flex justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
+  <div>
+    <Button className="bg-blue-600">Action</Button>
+  </div>
+</div>
+
+
+
+#### Double Button - Horizontal
+
+<div className='flex justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
+  <div className='flex gap-1.5'>
+    <Button  className="bg-blue-600 ">Save</Button>
+    <Button variant="outline" className="border-gray-200">Cancel</Button>
+  </div>
+</div>
+
+
+
+#### Double Button - Vertical
+
+<div className='flex justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
+  <div  className='flex flex-col gap-1.5'>
+    <Button  className="bg-blue-600">Continue</Button>
+    <Button variant="outline" className="border-gray-200">Back</Button>
+  </div>
+</div>
+
+
+
+#### Triple Button
+
+<div className='flex justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
+  <div className='flex gap-1.5'>
+    <Button  className="bg-blue-600">Save</Button>
+    <Button variant="outline" className="border-gray-200">Preview</Button>
+    <Button variant="outline"  className="border-gray-200">Cancel</Button>
+  </div>
+</div>
+
+
+
+#### With Options
+
+<div className='flex justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
+  <div className='flex gap-1.5'>
+    <Button className="bg-blue-600">Create</Button>
+    <Button variant="outline" className="border-gray-200">Edit</Button>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="outline" size="icon"  className="border-gray-200 flex items-center  gap-1.5">
+           <ChevronDownIcon className=" h-4 w-4" />
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent>
+        <DropdownMenuItem>Copy</DropdownMenuItem>
+        <DropdownMenuItem>Delete</DropdownMenuItem>
+        <DropdownMenuItem>Duplicate</DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  </div>
+</div>
+
+
+
+### Usage Guidelines
+
+- **Button groups** should be used when multiple related actions need to be presented together.
+- **Maintain hierarchy** by using appropriate button variants within a group (primary for main action, outline/ghost for secondary actions).
+- **Limit the number** of buttons in a group to 3-4 for optimal usability.
+- **Consistent spacing** between buttons is essential for visual clarity.
+- **Consider layout** based on available space and importance of actions (horizontal for equal importance, vertical for limited width).
+
+#### Accessibility
+
+- Ensure sufficient color contrast between buttons and their surroundings.
+- Maintain adequate spacing between buttons to prevent accidental clicks.
+- Consider keyboard navigation for users who cannot use a mouse.
+
+### Ownership
+
+<Ownership 
+  designOwner="Anushka Ranjan"
+  techOwner="Piyush Arora"
+  status="Live"
+  version="1.0.0"
+  figmaLink=""
+  githubLink=""
+/> 

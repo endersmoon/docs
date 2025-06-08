@@ -3,6 +3,85 @@ title: Colors
 description: JobHai unified design system Colors
 ---
 
-# Introduction
- 
-Hello, world! 
+
+
+# Color Tokens
+
+Our color system provides consistent and accessible color usage across JobHai products and experiences. These tokens are implemented using Tailwind CSS utility classes.
+
+<style>
+{`
+  .color-preview {
+    width: 100%;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #e2e8f0;
+  }
+`}
+</style>
+
+## Semantic Colors
+
+Semantic colors communicate purpose and meaning, creating visual patterns that help users understand functionality.
+
+| Token                 | Preview | Tailwind Name      | Description                                                  |
+|-----------------------|---------|--------------------|------------------------------------------------------------- |
+| background            | <div className="color-preview" style={{ backgroundColor: 'white' }}></div> | white              | Primary background color for the application                 |
+| foreground            | <div className="color-preview" style={{ backgroundColor: '#0f172a' }}></div> | slate-900          | Primary text color for content on light backgrounds          |
+| card                  | <div className="color-preview" style={{ backgroundColor: 'white' }}></div> | white              | Background color for card components                         |
+| card-foreground       | <div className="color-preview" style={{ backgroundColor: '#0f172a' }}></div> | slate-900          | Text color within card components                            |
+| popover               | <div className="color-preview" style={{ backgroundColor: 'white' }}></div> | white              | Background color for popover/dropdown components             |
+| popover-foreground    | <div className="color-preview" style={{ backgroundColor: '#0f172a' }}></div> | slate-900          | Text color within popover/dropdown components                |
+| primary               | <div className="color-preview" style={{ backgroundColor: '#0f172a' }}></div> | slate-900          | Primary interactive color for buttons and controls           |
+| primary-foreground    | <div className="color-preview" style={{ backgroundColor: 'white' }}></div> | white              | Text color on primary interactive elements                   |
+| secondary             | <div className="color-preview" style={{ backgroundColor: '#f1f5f9' }}></div> | slate-100          | Secondary interactive color for less prominent actions       |
+| secondary-foreground  | <div className="color-preview" style={{ backgroundColor: '#0f172a' }}></div> | slate-900          | Text color on secondary interactive elements                 |
+| muted                 | <div className="color-preview" style={{ backgroundColor: '#64748b' }}></div> | slate-500          | For subdued or less important interface elements             |
+| muted-2               | <div className="color-preview" style={{ backgroundColor: '#f1f5f9' }}></div> | slate-100          | Alternative muted color for varied emphasis                  |
+| muted-3               | <div className="color-preview" style={{ backgroundColor: '#94a3b8' }}></div> | slate-400          | Another variation of muted for layered emphasis              |
+| muted-foreground      | <div className="color-preview" style={{ backgroundColor: '#64748b' }}></div> | slate-500          | Text color for muted interface elements                      |
+| accent                | <div className="color-preview" style={{ backgroundColor: '#f1f5f9' }}></div> | slate-100          | Accent color for highlighting or decorative elements         |
+| accent-foreground     | <div className="color-preview" style={{ backgroundColor: '#0f172a' }}></div> | slate-900          | Text color for accent elements                               |
+| destructive           | <div className="color-preview" style={{ backgroundColor: '#f43f5e' }}></div> | rose-500           | Color indicating destructive or negative actions             |
+| destructive-foreground| <div className="color-preview" style={{ backgroundColor: '#fff1f2' }}></div> | rose-50            | Text color on destructive elements for readability           |
+| success               | <div className="color-preview" style={{ backgroundColor: '#ecfdf5' }}></div> | emerald-50         | Color indicating success or positive status                  |
+| success-foreground    | <div className="color-preview" style={{ backgroundColor: '#10b981' }}></div> | emerald-500        | Text color on success elements                               |
+| warning               | <div className="color-preview" style={{ backgroundColor: '#fffbeb' }}></div> | amber-50           | Color indicating warnings or cautionary information          |
+| warning-foreground    | <div className="color-preview" style={{ backgroundColor: '#d97706' }}></div> | amber-600          | Text color on warning elements                               |
+| info                  | <div className="color-preview" style={{ backgroundColor: '#eef2ff' }}></div> | indigo-50          | Color for informational elements                             |
+| info-foreground       | <div className="color-preview" style={{ backgroundColor: '#6366f1' }}></div> | indigo-500         | Text color on informational elements                         |
+| discovery             | <div className="color-preview" style={{ backgroundColor: '#faf5ff' }}></div> | purple-50          | Color for discovery or new feature highlighting              |
+| discovery-foreground  | <div className="color-preview" style={{ backgroundColor: '#a855f7' }}></div> | purple-500         | Text color on discovery elements                             |
+
+## Brand Colors
+
+Brand-specific colors that establish the JobHai visual identity.
+
+| Token                 | Preview | Tailwind Name      | Description                                                  |
+|-----------------------|---------|--------------------|------------------------------------------------------------- |
+| brand-rec             | <div className="color-preview" style={{ backgroundColor: '#2563eb' }}></div> | blue-600           | Primary recruitment branding color                           |
+| brand-rec-muted       | <div className="color-preview" style={{ backgroundColor: '#eff6ff' }}></div> | blue-50            | Subdued version of recruitment branding color                |
+| brand-js              | <div className="color-preview" style={{ backgroundColor: '#14b8a6' }}></div> | teal-500           | Primary JobSeeker branding color                             |
+| brand-js-muted        | <div className="color-preview" style={{ backgroundColor: '#f0fdfa' }}></div> | teal-50            | Subdued version of JobSeeker branding color                  |
+
+## UI Element Colors
+
+Colors specific to UI elements and functional components.
+
+| Token                 | Preview | Tailwind Name      | Description                                                  |
+|-----------------------|---------|--------------------|------------------------------------------------------------- |
+| border                | <div className="color-preview" style={{ backgroundColor: '#e2e8f0' }}></div> | slate-200          | Border color for UI elements                                 |
+| input                 | <div className="color-preview" style={{ backgroundColor: '#e2e8f0' }}></div> | slate-200          | Border color for form inputs                                 |
+| ring                  | <div className="color-preview" style={{ backgroundColor: '#0f172a' }}></div> | slate-900          | Focus ring color for accessibility                           |
+
+## Chart Colors
+
+Colors optimized for data visualization and charts.
+
+| Token                 | Preview | Tailwind Name      | Description                                                  |
+|-----------------------|---------|--------------------|------------------------------------------------------------- |
+| chart-1               | <div className="color-preview" style={{ backgroundColor: '#f97316' }}></div> | orange-500         | Primary chart color                                          |
+| chart-2               | <div className="color-preview" style={{ backgroundColor: '#14b8a6' }}></div> | teal-500           | Secondary chart color                                        |
+| chart-3               | <div className="color-preview" style={{ backgroundColor: '#1e40af' }}></div> | blue-800           | Tertiary chart color                                         |
+| chart-4               | <div className="color-preview" style={{ backgroundColor: '#f59e0b' }}></div> | amber-500          | Quaternary chart color                                       |
+| chart-5               | <div className="color-preview" style={{ backgroundColor: '#ea580c' }}></div> | orange-600         | Quinary chart color                                          | 
