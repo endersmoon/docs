@@ -1,24 +1,7 @@
 export default {
-  index: 'Home',
-  GettingStarted: 'Getting Started',
-  Design: 'Design',
-  Content: 'Content',
-  '--': {
-    type: 'separator',
-  },
-  
-
-  Components: 'Components',
-  Composition: 'Composition',
-  Tokens: 'Tokens',
-  Assets: 'Assets',
-  '---': {
-    type: 'separator',
-  },
-  Sound: 'Sound',
-  Motion: 'Motion',
-  Brand: 'Brand',
-  '----': {
-    type: 'separator',
-  },
+  index: { title: 'Home', type: 'page' },
+  doc: { title: 'Guide', type: 'page' },
+  components: { title: 'Components', type: 'page' },
+  tokens: { title: 'Tokens', type: 'page' },
+  assets: { title: 'Assets', type: 'page' },
 };
