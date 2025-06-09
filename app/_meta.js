@@ -9,6 +9,7 @@ export default {
   
 
   Components: 'Components',
+  Composition: 'Composition',
   Tokens: 'Tokens',
   Assets: 'Assets',
   '---': {
