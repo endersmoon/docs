@@ -3,6 +3,101 @@ title: Localisation
 description: JobHai unified design system Localisation
 ---
 
-# Introduction
- 
-Hello, world! 
+# Localisation Guide
+
+This guide outlines principles for adapting Job Hai’s content across India’s diverse linguistic, cultural, and literacy landscapes. Our goal is to ensure that every user, regardless of region or language, feels included and understood.
+
+---
+
+##  Localisation Philosophy
+
+- **India-first mindset:** Prioritise local languages, Hinglish, and familiar terms.
+- **User-first over literal:** Translate for **intent**, not word-for-word.
+- **Respect regional nuance:** Words can change meaning across states. Always test with native speakers.
+
+---
+
+##  Supported Languages (Initial Phase)
+
+- Hindi (Primary)
+- Hinglish (Hybrid UX)
+- Marathi
+- Bengali
+- Tamil
+- Telugu
+- Kannada
+- Gujarati
+- Punjabi
+
+> Expand based on user growth in specific regions.
+
+---
+
+##  Translation Style Guide
+
+### ✅ Do
+- Use common conversational tone.
+- Mirror local expressions.
+- Use short, active phrases.
+- Localise currencies, time, and measurements (e.g., ₹15,000/month).
+
+### ❌ Don’t
+- Use literal translations (e.g., “Submit” → ❌ "Prastut karein" → ✅ "Bhej do").
+- Translate brand/product names.
+- Mix multiple languages unless using Hinglish intentionally.
+
+---
+
+##  Hinglish Usage Guidelines
+
+| Use Case                | Hinglish Preferred | Reason                     |
+|--------------------------|---------------------|-----------------------------|
+| Buttons/CTAs             | "Apply karo"        | More relatable & friendly  |
+| Prompts/Reminders        | "Resume upload karo"| Actionable & clear         |
+| Warnings                 | "Galat number hai"  | Easier to understand       |
+
+> Use Hinglish only when it improves comprehension and feels native.
+
+---
+
+##  Cultural Sensitivity
+
+- Avoid religious or caste-based references.
+- Do not use idioms that may not translate across states.
+- Be mindful of how humor or sarcasm can be misinterpreted.
+
+---
+
+##  Regional Testing Checklist
+
+- ✅ Checked by native speaker for tone and grammar.
+- ✅ Verified in context (e.g., on button, in a notification).
+- ✅ Does not affect layout/UI adversely (e.g., word wrapping, overflow).
+- ✅ Audio/voice support matches dialect if used.
+
+---
+
+##  Examples
+
+### Original (English)
+- "Your interview is scheduled for Monday at 11:00 AM."
+
+### Localised (Hindi)
+- "Aapka interview Monday ko subah 11 baje hai."
+
+### Localised (Hinglish)
+- "Interview fix ho gaya hai – Monday 11 baje."
+
+---
+
+##  Tools & Process
+
+- Use a localisation management system (e.g., Lokalise, Phrase, Crowdin).
+- Store strings with clear IDs and context.
+- Include developer notes for tone/intent.
+- Support fallbacks to Hindi or English if translation unavailable.
+
+---
+
+> 📌 Pro Tip: Translate meaning, not just words. If it doesn’t *sound* like something someone would say at a chai tapri or on a WhatsApp forward — rewrite it.
+
