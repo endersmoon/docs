@@ -3,6 +3,25 @@ title: Input
 description: JobHai unified design system Form Input
 ---
 
-# Introduction
- 
-Hello, world! 
+import { Input } from '@/components/ui/input';
+
+# Input Field
+
+
+
+
+A text field is an input field that merchants can type into. It has a range of options and supports several text formats including numbers.
+
+
+### Text Input
+
+<div className='flex  justify-center items-center h-[200px] w-full border gap-4 border-gray-200 rounded-md mt-3'>
+  <Input className='w-2/3 md:w-1/2' placeholder='Enter input' />
+</div>
+
+### Number Input
+
+<div className='flex  justify-center items-center h-[200px] w-full border gap-4 border-gray-200 rounded-md mt-3'>
+  <Input className='w-2/3 md:w-1/2' type='number' placeholder='Enter input' />
+</div>
+

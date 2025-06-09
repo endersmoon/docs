@@ -2,7 +2,16 @@
 title: Checkbox
 description: JobHai unified design system Form Checkbox
 ---
+import { Checkbox } from '@/components/ui/checkbox';
+import { Label } from '@/components/ui/label';
 
-# Introduction
- 
-Hello, world! 
+# Checkbox
+
+A checkbox is a form element that allows users to select one or more options from a list.
+
+<div className='flex  justify-center items-center h-[200px] w-full border gap-4 border-gray-200 rounded-md mt-3'>
+   <div className="flex items-center gap-3">
+        <Checkbox id="terms" />
+        <Label htmlFor="terms">Accept terms and conditions</Label>
+      </div>
+</div>

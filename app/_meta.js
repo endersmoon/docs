@@ -17,4 +17,7 @@ export default {
   Sound: 'Sound',
   Motion: 'Motion',
   Brand: 'Brand',
+  '----': {
+    type: 'separator',
+  },
 };
