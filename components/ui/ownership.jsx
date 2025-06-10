@@ -1,16 +1,8 @@
+
 import React from 'react';
 import { ExternalLinkIcon } from 'lucide-react';
 
-/**
- * Ownership component displays metadata about a component's ownership and status
- * @param {Object} props
- * @param {string} props.designOwner - Name of the design owner
- * @param {string} props.techOwner - Name of the technical owner
- * @param {string} props.status - Current status of the component
- * @param {string} props.version - Version number of the component
- * @param {string} props.figmaLink - Link to the Figma design
- * @param {string} props.githubLink - Link to the GitHub repository
- */
+
 const Ownership = ({ 
   designOwner = "", 
   techOwner = "", 
