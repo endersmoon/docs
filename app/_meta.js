@@ -3,5 +3,6 @@ export default {
   doc: { title: 'Guide', type: 'page' },
   components: { title: 'Components', type: 'page' },
   token: { title: 'Tokens', type: 'page' },
+  material: { title: 'Assets', type: 'page' },
 
 };
