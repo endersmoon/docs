@@ -1,0 +1,82 @@
+---
+title: Action List
+description: JobHai unified design system Action List Group
+---
+
+import { Button } from '@/components/ui/button';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { InfoIcon, ImageIcon, CheckCircle } from 'lucide-react';
+
+# Action List
+
+Action lists render a list of actions or selectable options. This component is placed inside a Popover to create a dropdown menu or to let merchants select from a list of options.
+
+<div className='flex  justify-center items-center h-[300px] w-full border border-gray-200 rounded-md mt-3'>
+  <DropdownMenu>
+    <DropdownMenuTrigger asChild>
+      <Button variant='outline'>Open</Button>
+    </DropdownMenuTrigger>
+    <DropdownMenuContent className='w-56' align='start'>
+      <DropdownMenuLabel>My Account</DropdownMenuLabel>
+      <DropdownMenuGroup>
+        <DropdownMenuItem>
+          <div className='flex items-center gap-2'>
+            <div className='w-10 h-10 flex justify-center items-center bg-gray-200 rounded-md'>
+              <ImageIcon />
+            </div>
+
+            <div className='flex flex-col'>
+              <span className='font-medium'>Media Item</span>
+              <span className='text-xs text-muted-foreground'>
+                Image content
+              </span>
+            </div>
+          </div>
+        </DropdownMenuItem>
+
+        <DropdownMenuItem>
+          <div className='flex items-center gap-2'>
+            <div className='w-10 h-10 flex justify-center items-center bg-amber-100 rounded-md'>
+              <CheckCircle className='text-amber-500' />
+            </div>
+
+            <div className='flex flex-col'>
+              <span className='font-medium'>Completed</span>
+              <span className='text-xs text-muted-foreground'>
+                Task finished
+              </span>
+            </div>
+          </div>
+        </DropdownMenuItem>
+
+        <DropdownMenuItem>
+          <div className='flex items-center gap-2'>
+            <div className='w-10 h-10 flex justify-center items-center bg-purple-100 rounded-md'>
+              <span className='text-purple-700 font-medium'>DP</span>
+            </div>
+
+            <div className='flex flex-col'>
+              <span className='font-medium'>Profile</span>
+              <span className='text-xs text-muted-foreground'>
+                User details
+              </span>
+            </div>
+          </div>
+        </DropdownMenuItem>
+      </DropdownMenuGroup>
+    </DropdownMenuContent>
+  </DropdownMenu>
+</div>

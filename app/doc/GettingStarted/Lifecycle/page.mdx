@@ -2,10 +2,18 @@
 title: Lifecycle
 description: JobHai unified design system Lifecycle
 ---
+import { Callout } from 'nextra/components'
+
+
 
 # Component Lifecycle
 
- 
+
+Each component goes through a lifecycle process before it is ready for production. This process is designed to ensure that the component is of high quality and is ready for use in production.
+
+
+ <Callout>You can track our components on this <a className='underline' href="https://infoedge.atlassian.net/jira/core/projects/JHDS/list">Jira Board</a> </Callout>
+
 ### Alpha
 
 The component is a work in progress and ready for exploratory usage, with breaking changes expected. 
@@ -14,19 +22,18 @@ If the purpose is unclear, we may decide not to move forward with the component 
 
 #### Requirements for alpha
 
-- Has a clear purpose and rationale for why it belongs in Polaris
-- Uses Polaris [tokens](https://polaris.shopify.com/tokens) with no references to any hard-coded static values
-- Designed with responsiveness in mind and can adapt across [breakpoints](https://polaris.shopify.com/tokens/breakpoints)
-- Meets known [accessibility](https://polaris.shopify.com/foundations/accessibility) requirements like: contrast, interactive states, touch target size, etc.
+- Has a clear purpose and rationale for why it belongs in Phoenix
+- Uses Phoenix [tokens](/token/intro) with no references to any hard-coded static values
+- Designed with responsiveness in mind and can adapt across breakpoints
+- Meets known accessibility requirements like: contrast, interactive states, touch target size, etc.
 - In progress documentation exists that includes the list of props with some examples
 - Documentation includes examples in Storybook
-- The component has 100% test coverage
 
 #### What to expect during alpha
 
-- Usage is being evaluated, and may not progress to beta. Evaluation includes any necessary research and data that supports why the component belongs in Polaris.
+- Usage is being evaluated, and may not progress to beta. Evaluation includes any necessary research and data that supports why the component belongs in Phoenix.
 - Components could be changed completely, or removed from the system
-- Feedback is highly recommended and encouraged, [Create an issue](https://github.com/Shopify/polaris/issues/new)
+- Feedback is highly recommended and encouraged, [Create an issue](https://github.com/Shopify/Phoenix/issues/new)
 
 
 
@@ -38,11 +45,11 @@ Ready for wider adoption, encouraged for most cases. Breaking changes are possib
 
 #### Requirements for beta
 
-- Used multiple times in production (Shopify admin)
-- Meets all [accessibility](https://polaris.shopify.com/foundations/accessibility) requirements for our use cases
+- Used multiple times in production 
+- Meets all  accessibility requirements for our use cases
 - Usage guidelines and documentation covers common use cases
 - Reviewed and tested in production by designers and developers
-- Figma components available in the Polaris Components file
+- Figma components available in the Phoenix Components file
 
 #### What to expect during beta
 
@@ -56,9 +63,9 @@ The component is bug free and works in most, if not all, environments. It’s re
 #### Requirements for stable
 
 - The API is stable, with no breaking changes until the next major release (if necessary)
-- Usability testing and feedback has been gathered on UX and DX
+- Usability testing and feedback has been gathered on UX and Tech
 - Documentation exists for component props, variants, accessibility guidelines, and usage
-- Manual and automated migration documentation exists
+
 
 
 

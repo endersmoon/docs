@@ -1,0 +1,85 @@
+---
+title: Accordion
+description: JobHai unified design system Accordion Group
+---
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+import Ownership from '@/components/ui/ownership';
+
+# Accordion
+
+Accordions are used to show and hide content.
+
+<div className='flex  justify-center items-center h-fit w-full border border-gray-200 rounded-md mt-3'>
+ <Accordion
+      type="single"
+      collapsible
+      className="w-1/2"
+      defaultValue="item-1"
+    >
+      <AccordionItem value="item-1">
+        <AccordionTrigger>Job Search Tips</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+          <div>
+            Optimize your JobHai profile with relevant skills and experience to increase visibility to potential employers.
+          </div>
+          <div>
+            Use JobHai's advanced filters to narrow down opportunities by location, industry, and experience level for more targeted results.
+          </div>
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-2">
+        <AccordionTrigger>Application Process</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+          <div>
+            JobHai streamlines the application process with one-click applications and saved resume profiles.
+          </div>
+          <div>
+            Track all your applications in real-time through your personal dashboard and receive notifications when employers view your profile.
+          </div>
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-3">
+        <AccordionTrigger>Candidate Resources</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+          <div>
+            Access JobHai's extensive library of interview preparation materials, resume templates, and career development resources.
+          </div>
+          <div>
+            Connect with industry mentors through our networking platform and join virtual workshops to enhance your professional skills.
+          </div>
+        </AccordionContent>
+      </AccordionItem>
+    </Accordion>
+ 
+</div>
+
+
+
+## Usage Guidelines
+
+- Use accordions to organize complex information into digestible sections
+- Keep accordion titles clear and concise, ideally 1-3 words
+- Ensure the content within each accordion panel is related to its heading
+- For critical information, consider using more prominent UI components instead
+- Limit nesting of accordions to maintain usability
+- Default state should have the most relevant section expanded
+- Avoid putting form submission buttons inside accordion panels
+
+
+
+### Ownership
+
+<Ownership 
+  designOwner="Anushka Ranjan"
+  techOwner="Piyush Arora"
+  status="Live"
+  version="1.2.0"
+  figmaLink=""
+  githubLink=""
+/>
