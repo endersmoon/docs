@@ -5,19 +5,10 @@ description: JobHai unified design system Form Checkbox
 import { Checkbox } from '@/components/ui/checkbox';
 import { Label } from '@/components/ui/label';
 import { Callout } from 'nextra/components'
+import Ownership from '@/components/ui/ownership';
 
 # Checkbox
-
-### Usage
-
-Usually used in forms, checkboxes collect input from users. They can select a number of options ranging from zero to multiple options.
-
-
-Use checkboxes when: People need to select one or more options from a list of related items.
-You need an explicit confirmation from the user to apply settings.
-
-
-
+Let users select one or more options by using the checkboxes component.
 
 <div className='flex  justify-center items-center h-[200px] w-full border gap-4 border-gray-200 rounded-md mt-3'>
    <div className="flex items-center gap-3">
@@ -25,3 +16,26 @@ You need an explicit confirmation from the user to apply settings.
         <Label htmlFor="terms">Accept terms and conditions</Label>
       </div>
 </div>
+
+### When to use this component
+Use the checkboxes component when you need to help users:
+
+- select multiple options from a list
+- toggle a single option on or off
+
+
+### When not to use this component
+Do not use the checkboxes component if users can only choose one option from a selection. 
+In this case, use the Radios component.
+
+
+
+
+<Ownership 
+  designOwner="Anushka Ranjan"
+  techOwner="Piyush Arora"
+  status="Live"
+  version="1.0.0"
+  figmaLink=""
+  githubLink=""
+/> 
