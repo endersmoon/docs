@@ -7,6 +7,10 @@ import { Button } from '@/components/ui/button';
 import { PlusIcon } from 'lucide-react';
 import Ownership from '@/components/ui/ownership';
 
+# Button
+
+
+
 
  
 ### Overview
@@ -14,20 +18,7 @@ import Ownership from '@/components/ui/ownership';
 Buttons are used to trigger actions. They can be used to submit forms, trigger modal dialogs, or perform other actions.
 
 
-### Figma
 
-<iframe 
-  style={{ 
-    border: "1px solid rgba(0, 0, 0, 0.1)",
-    borderRadius: "10px",
-    overflow: "hidden",
-    margin: "24px 0",
-  }} 
-  width="800" 
-  height="450" 
-  src="https://www.figma.com/design/4Ya3NemiNKO1Jnn5CwzXSj/DS-Workfile?node-id=238-7191&embed-host=share" 
-  allowFullScreen
-/>
 
 
 ### Variants
@@ -42,11 +33,16 @@ We have 5 variants of buttons:
 
 #### Primary
 
+Use a default button for the main call to action on a page.
+Avoid using multiple default buttons on a single page. 
+Having more than one main call to action reduces their impact, and makes it harder for users to know what to do next.
+
 <div className='flex  justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
   <Button className=" bg-blue-600">Button</Button>
 </div>
 
 #### Outline
+Use Outline buttons for Outline calls to action on a page.Pages with too many calls to action make it hard for users to know what to do next. Before adding lots of Outline buttons, try to simplify the page or break the content down across multiple pages.
 
 <div className='flex  justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
   <Button variant='outline' className=' border-gray-200'>
@@ -56,11 +52,14 @@ We have 5 variants of buttons:
 
 #### Ghost
 
+Ghost button are a great alternative to outline buttons when you need to make a button less prominent.
+
 <div className='flex  justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
   <Button variant='ghost'>Button</Button>
 </div>
 
 #### Link
+Link buttons are used for navigational actions rather than operations that change data. Also they are great for inline actions.
 
 <div className='flex  justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
   <Button variant='link'>Button</Button>
@@ -68,25 +67,38 @@ We have 5 variants of buttons:
 
 #### Destructive
 
+Warning buttons are designed to make users think carefully before they use them. They only work if used very sparingly. Most services should not need one.
+
 <div className='flex  justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
   <Button variant='destructive'>Button</Button>
 </div>
 
 ### With Icon
 
-#### Icon Left
+### Icon Only
+
+Icon buuons are great for Actions that need to repeated multiple times across a page. Example: Call a Candidate, Whatsapp Candidate, Reject Candidate, etc.
 
 <div className='flex  justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
-  <Button className='flex items-center gap-1 bg-blue-600'>
+  <Button variant='outline' size='icon' className='border-gray-200'>
+    <PlusIcon className='w-4 h-4' />
+  </Button>
+  </div>
+#### Icon Left
+Buttons with icons on the left are great for actions that are special and need to be highlighted.
+
+<div className='flex  justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
+  <Button variant='outline' className='border-gray-200'>
     
     <PlusIcon className='w-4 h-4' /> <div> Button</div>
   </Button>
 </div>
 
 #### Icon Right
+Buttons with icons on the right are great for actions that navigate the user to a new page.
 
 <div className='flex  justify-center items-center h-[200px] w-full border border-gray-200 rounded-md mt-3'>
-  <Button className='flex items-center gap-1 bg-blue-600'>
+  <Button variant='outline' className='border-gray-200'>
     
    <div> Button</div> <PlusIcon className='w-4 h-4' />
   </Button>
@@ -112,13 +124,7 @@ We have 3 sizes of buttons:
 
 </div>
 
-### Usage Guidelines
 
-- **Primary buttons** should be used for the main action on a page or in a section. Limit to one primary button per view to maintain visual hierarchy.
-- **Outline buttons** are ideal for secondary actions that complement the primary action.
-- **Ghost buttons** work well in dense interfaces where you need a button that doesn't compete visually with other elements.
-- **Link buttons** should be used for navigational actions rather than operations that change data.
-- **Destructive buttons** should be reserved for actions that result in data deletion or significant changes.
 
 #### Spacing
 

@@ -2,84 +2,107 @@
 title: Accordion
 description: JobHai unified design system Accordion Group
 ---
+
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
+} from '@/components/ui/accordion';
 
 import Ownership from '@/components/ui/ownership';
 
 # Accordion
 
-Accordions are used to show and hide content.
+The accordion component lets users show and hide sections of related content on a page.
 
-<div className='flex  justify-center items-center h-fit w-full border border-gray-200 rounded-md mt-3'>
- <Accordion
-      type="single"
-      collapsible
-      className="w-1/2"
-      defaultValue="item-1"
-    >
-      <AccordionItem value="item-1">
-        <AccordionTrigger>Job Search Tips</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
-          <div>
-            Optimize your JobHai profile with relevant skills and experience to increase visibility to potential employers.
-          </div>
-          <div>
-            Use JobHai's advanced filters to narrow down opportunities by location, industry, and experience level for more targeted results.
-          </div>
-        </AccordionContent>
-      </AccordionItem>
-      <AccordionItem value="item-2">
-        <AccordionTrigger>Application Process</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
-          <div>
-            JobHai streamlines the application process with one-click applications and saved resume profiles.
-          </div>
-          <div>
-            Track all your applications in real-time through your personal dashboard and receive notifications when employers view your profile.
-          </div>
-        </AccordionContent>
-      </AccordionItem>
-      <AccordionItem value="item-3">
-        <AccordionTrigger>Candidate Resources</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
-          <div>
-            Access JobHai's extensive library of interview preparation materials, resume templates, and career development resources.
-          </div>
-          <div>
-            Connect with industry mentors through our networking platform and join virtual workshops to enhance your professional skills.
-          </div>
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
- 
+<div className='flex  justify-center items-center h-fit py-12 w-full border border-gray-200 rounded-md mt-3'>
+  <Accordion type='single' collapsible className='w-1/2' defaultValue='item-1'>
+    <AccordionItem value='item-1'>
+      <AccordionTrigger>Job Search Tips</AccordionTrigger>
+      <AccordionContent className='flex flex-col gap-4 text-balance'>
+        <div>
+          Optimize your JobHai profile with relevant skills and experience to
+          increase visibility to potential employers.
+        </div>
+        <div>
+          Use JobHai's advanced filters to narrow down opportunities by
+          location, industry, and experience level for more targeted results.
+        </div>
+      </AccordionContent>
+    </AccordionItem>
+    <AccordionItem value='item-2'>
+      <AccordionTrigger>Application Process</AccordionTrigger>
+      <AccordionContent className='flex flex-col gap-4 text-balance'>
+        <div>
+          JobHai streamlines the application process with one-click applications
+          and saved resume profiles.
+        </div>
+        <div>
+          Track all your applications in real-time through your personal
+          dashboard and receive notifications when employers view your profile.
+        </div>
+      </AccordionContent>
+    </AccordionItem>
+    <AccordionItem value='item-3'>
+      <AccordionTrigger>Candidate Resources</AccordionTrigger>
+      <AccordionContent className='flex flex-col gap-4 text-balance'>
+        <div>
+          Access JobHai's extensive library of interview preparation materials,
+          resume templates, and career development resources.
+        </div>
+        <div>
+          Connect with industry mentors through our networking platform and join
+          virtual workshops to enhance your professional skills.
+        </div>
+      </AccordionContent>
+    </AccordionItem>
+  </Accordion>
 </div>
 
+### When to use this?
 
+Only use an accordion if there’s evidence it’s helpful for the user to:
 
-## Usage Guidelines
+- see an overview of multiple, related sections of content
+- choose to show and hide sections that are relevant to them
+- look across information that might otherwise be on different pages
 
-- Use accordions to organize complex information into digestible sections
-- Keep accordion titles clear and concise, ideally 1-3 words
-- Ensure the content within each accordion panel is related to its heading
-- For critical information, consider using more prominent UI components instead
-- Limit nesting of accordions to maintain usability
-- Default state should have the most relevant section expanded
-- Avoid putting form submission buttons inside accordion panels
+For example, an accordion can work well if the user needs to reveal and compare information that’s relevant to them.
+Accordions can also work well for people who use a service regularly.
 
+### When not to use this?
+Accordions hide content from the user. Not all users will notice them or understand how they work. For this reason, you should only use them in specific situations and if user research supports it.
+Do not use an accordion for content that all users need to see.
+It’s usually better to:
+
+- simplify and reduce the amount of content
+- split the content across multiple pages
+- keep the content on a single page, separated by headings
+- use a list of links at the start of the page (known as ‘anchor links’) to take the user to particular sections of a page
+
+Accordions work best for simple content and links. Do not use accordions to split up a series of questions. Use separate pages instead.
+
+- Do not put accordions within accordions, as it will make content difficult to find.
+- Do not use the accordion component if the amount of content inside will make the page slow to load.
+
+### When to use accordions vs tabs?
+The Accordion component, and Tabs component all work by hiding sections of content which a user can choose to reveal. Avoid using any of these components within one another.
+
+If you decide to use one of these components, consider if:
+
+- the user needs to look at more than one section at a time – an accordion can show multiple sections at a time, unlike tabs
+- the user needs to switch quickly between sections – tabs can show content without pushing other sections down the page, unlike accordions
+- there are many sections of content – accordions can fit more sections as they’re arranged vertically, unlike tabs which are arranged horizontally
 
 
 ### Ownership
 
-<Ownership 
-  designOwner="Anushka Ranjan"
-  techOwner="Piyush Arora"
-  status="Live"
-  version="1.2.0"
-  figmaLink=""
-  githubLink=""
+<Ownership
+  designOwner='Anushka Ranjan'
+  techOwner='Piyush Arora'
+  status='Live'
+  version='1.2.0'
+  figmaLink=''
+  githubLink=''
 />

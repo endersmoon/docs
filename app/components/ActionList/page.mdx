@@ -22,7 +22,8 @@ import { InfoIcon, ImageIcon, CheckCircle } from 'lucide-react';
 
 # Action List
 
-Action lists render a list of actions or selectable options. This component is placed inside a Popover to create a dropdown menu or to let merchants select from a list of options.
+Displays a menu to the user — such as a set of actions or functions — triggered by a button.
+
 
 <div className='flex  justify-center items-center h-[300px] w-full border border-gray-200 rounded-md mt-3'>
   <DropdownMenu>
@@ -80,3 +81,34 @@ Action lists render a list of actions or selectable options. This component is p
     </DropdownMenuContent>
   </DropdownMenu>
 </div>
+
+
+
+### When to use this?
+
+Only use an Action List if there's evidence it's helpful for the user to:
+
+- see a list of multiple, related actions or options in a compact space
+- choose to show and hide actions that are relevant to them, keeping the interface clean
+- access secondary or contextual actions that don't need to be always visible
+
+For example, an Action List works well if the user needs to reveal and compare actions related to a specific item or context. It can also be useful for users who perform a variety of actions within a single workflow.
+
+### When not to use this?
+
+Action Lists hide actions from the user until triggered. Not all users will notice or understand how to access them. For this reason, you should only use them in specific situations and if user research supports it.
+
+Do not use an Action List for actions that all users need to see immediately.
+It's usually better to:
+
+- display primary actions as visible buttons
+- simplify and reduce the number of actions
+- group unrelated actions separately, rather than in a single Action List
+- use a toolbar or visible menu for frequently used actions
+
+Action Lists work best for secondary or contextual actions. Do not use Action Lists to hide critical or frequently used actions. Avoid nesting Action Lists within other Action Lists, as it can make actions difficult to find.
+
+
+### Handling for Mobile
+
+For mobile it is recommended to use a bottomsheet instead of an action list.

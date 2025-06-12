@@ -25,3 +25,34 @@ A text field is an input field that merchants can type into. It has a range of o
   <Input className='w-2/3 md:w-1/2' type='number' placeholder='Enter input' />
 </div>
 
+### When to use this?
+
+Use the text input component when you need to let users enter text that’s no longer than a single line, such as their name or phone number.
+
+### When not to use this?
+
+Do not use the text input component if you need to let users enter longer answers that might span multiple lines.
+
+
+### How to use this?
+All text inputs must have labels, and in most cases the label should be visible.
+
+You should align labels above the text input they refer to. They should be short, direct and written in sentence case. Do not use colons at the end of labels.
+
+
+#### Avoid Placeholders
+Do not use placeholder text in place of a label, or for hints or examples, as:
+
+it vanishes when the user starts typing, which can cause problems for users with memory conditions or when reviewing answers
+not all screen readers read it out
+
+
+#### Hint text
+Use hint text for help that’s relevant to the majority of users, like how their information will be used, or where to find it.
+
+Keep hint text to a single short sentence, without any full stops.
+
+Do not use links in hint text. While screen readers will read out the link text when describing the field, they usually do not tell users the text is a link.
+
+
+
