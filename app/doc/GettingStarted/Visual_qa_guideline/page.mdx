@@ -1,0 +1,151 @@
+
+
+# Visual QA Guidelines
+
+### Purpose
+Ensure pixel-perfect implementation of design system components by verifying visual, functional, and interactive consistency across screens and devices.
+
+### Objective
+Quickly identify major visual issues, layout alignment errors, and missing elements.
+
+## Initial Visual Assessment
+
+
+### Side-by-Side Comparison
+
+
+
+#### What to look for
+- Layout alignment
+
+- Color mismatches
+
+- Missing elements
+
+- Extra/unwanted components
+
+- Obvious spacing inconsistencies
+
+#### Documentation
+- Annotate screenshots
+
+- Create a visual discrepancy list with time stamps
+
+### Layout Structure Check
+#### What to do
+- Confirm padding, margin, and section placement
+
+- Validate flex/grid layouts
+
+- Review hierarchy of sections
+
+#### Check for
+
+- Screen space utilization
+
+- Proper zoom scaling (1.5× system zoom)
+
+- Correct element stacking and order
+
+
+## Component-Level QA
+#### Typography Verification
+##### Checklist
+- Is the text style (font family, size, weight) correct?
+
+- Is color accurate?
+
+- Is alignment correct?
+
+- Is spacing (line height, letter spacing) correct?
+
+- Are max/min characters applied?
+
+Tools: WhatFont, browser dev tools, Figma specs
+
+### Layout Precision
+##### Checklist
+- Are paddings/margins correct?
+
+- Is child element order correct?
+
+- Is screen space optimized?
+
+- Is zoom behavior (1.5×) preserved?
+
+### Responsiveness Check (Web Only)
+##### Checklist
+- Is the max/min width correct?
+
+- Does content wrap correctly?
+
+- Are tokens changing per breakpoint?
+
+- Are components shifting as per design?
+
+#### Breakpoints to test
+-  1280px, 1440px
+
+### Interaction States
+#### Checklist
+
+- Are hover/active/focus/disabled states working?
+
+- Is animation smooth?
+
+- Is loader/skeleton shown for heavy loads?
+
+- Is the transition smooth and fluid?
+
+#### Documentation Format
+
+<div className="p-3 bg-muted mt-2 rounded-md">
+
+- Component: Button
+- State: Hover
+- Expected: #2563EB background
+- Actual: #3B82F6
+- Status: ❌
+
+</div>
+
+### Component Accuracy
+#### Checklist
+- Is the correct component used?
+
+- Is the correct variant used?
+
+- Are all states (default, hover, disabled) working?
+
+
+### Asset Integrity
+#### Checklist
+
+- Is aspect ratio maintained?
+
+- Are images pixelated or stretched?
+
+### Content Accuracy
+#### Checklist
+- Does content match the Figma file?
+
+- Does it adapt to multiple languages?
+
+- Is it breaking layout or alignment?
+
+### Flows & Use Case Coverage
+#### Checklist
+
+- Are all intended flows working?
+
+- Are use cases fully covered in navigation/interaction?
+
+
+
+
+
+
+
+
+
+
