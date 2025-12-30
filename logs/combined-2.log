@@ -1,0 +1,448 @@
+2025-12-30T05:20:33: 
+2025-12-30T05:20:33: > lava@0.1.0 start
+2025-12-30T05:20:33: > next start
+2025-12-30T05:20:33: 
+2025-12-30T05:20:33:  ⨯ Failed to start server
+2025-12-30T05:20:33: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:33:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:33:     at new Promise (<anonymous>) {
+2025-12-30T05:20:33:   code: 'EADDRINUSE',
+2025-12-30T05:20:33:   errno: -98,
+2025-12-30T05:20:33:   syscall: 'listen',
+2025-12-30T05:20:33:   address: '::',
+2025-12-30T05:20:33:   port: 3001
+2025-12-30T05:20:33: }
+2025-12-30T05:20:33: 
+2025-12-30T05:20:33: > lava@0.1.0 start
+2025-12-30T05:20:33: > next start
+2025-12-30T05:20:33: 
+2025-12-30T05:20:34:  ⨯ Failed to start server
+2025-12-30T05:20:34: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:34:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:34:     at new Promise (<anonymous>) {
+2025-12-30T05:20:34:   code: 'EADDRINUSE',
+2025-12-30T05:20:34:   errno: -98,
+2025-12-30T05:20:34:   syscall: 'listen',
+2025-12-30T05:20:34:   address: '::',
+2025-12-30T05:20:34:   port: 3001
+2025-12-30T05:20:34: }
+2025-12-30T05:20:34: 
+2025-12-30T05:20:34: > lava@0.1.0 start
+2025-12-30T05:20:34: > next start
+2025-12-30T05:20:34: 
+2025-12-30T05:20:35:  ⨯ Failed to start server
+2025-12-30T05:20:35: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:35:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:35:     at new Promise (<anonymous>) {
+2025-12-30T05:20:35:   code: 'EADDRINUSE',
+2025-12-30T05:20:35:   errno: -98,
+2025-12-30T05:20:35:   syscall: 'listen',
+2025-12-30T05:20:35:   address: '::',
+2025-12-30T05:20:35:   port: 3001
+2025-12-30T05:20:35: }
+2025-12-30T05:20:35: 
+2025-12-30T05:20:35: > lava@0.1.0 start
+2025-12-30T05:20:35: > next start
+2025-12-30T05:20:35: 
+2025-12-30T05:20:35:  ⨯ Failed to start server
+2025-12-30T05:20:35: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:35:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:35:     at new Promise (<anonymous>) {
+2025-12-30T05:20:35:   code: 'EADDRINUSE',
+2025-12-30T05:20:35:   errno: -98,
+2025-12-30T05:20:35:   syscall: 'listen',
+2025-12-30T05:20:35:   address: '::',
+2025-12-30T05:20:35:   port: 3001
+2025-12-30T05:20:35: }
+2025-12-30T05:20:36: 
+2025-12-30T05:20:36: > lava@0.1.0 start
+2025-12-30T05:20:36: > next start
+2025-12-30T05:20:36: 
+2025-12-30T05:20:36:  ⨯ Failed to start server
+2025-12-30T05:20:36: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:36:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:36:     at new Promise (<anonymous>) {
+2025-12-30T05:20:36:   code: 'EADDRINUSE',
+2025-12-30T05:20:36:   errno: -98,
+2025-12-30T05:20:36:   syscall: 'listen',
+2025-12-30T05:20:36:   address: '::',
+2025-12-30T05:20:36:   port: 3001
+2025-12-30T05:20:36: }
+2025-12-30T05:20:36: 
+2025-12-30T05:20:36: > lava@0.1.0 start
+2025-12-30T05:20:36: > next start
+2025-12-30T05:20:36: 
+2025-12-30T05:20:37:  ⨯ Failed to start server
+2025-12-30T05:20:37: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:37:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:37:     at new Promise (<anonymous>) {
+2025-12-30T05:20:37:   code: 'EADDRINUSE',
+2025-12-30T05:20:37:   errno: -98,
+2025-12-30T05:20:37:   syscall: 'listen',
+2025-12-30T05:20:37:   address: '::',
+2025-12-30T05:20:37:   port: 3001
+2025-12-30T05:20:37: }
+2025-12-30T05:20:37: 
+2025-12-30T05:20:37: > lava@0.1.0 start
+2025-12-30T05:20:37: > next start
+2025-12-30T05:20:37: 
+2025-12-30T05:20:38:  ⨯ Failed to start server
+2025-12-30T05:20:38: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:38:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:38:     at new Promise (<anonymous>) {
+2025-12-30T05:20:38:   code: 'EADDRINUSE',
+2025-12-30T05:20:38:   errno: -98,
+2025-12-30T05:20:38:   syscall: 'listen',
+2025-12-30T05:20:38:   address: '::',
+2025-12-30T05:20:38:   port: 3001
+2025-12-30T05:20:38: }
+2025-12-30T05:20:38: 
+2025-12-30T05:20:38: > lava@0.1.0 start
+2025-12-30T05:20:38: > next start
+2025-12-30T05:20:38: 
+2025-12-30T05:20:39:  ⨯ Failed to start server
+2025-12-30T05:20:39: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:39:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:39:     at new Promise (<anonymous>) {
+2025-12-30T05:20:39:   code: 'EADDRINUSE',
+2025-12-30T05:20:39:   errno: -98,
+2025-12-30T05:20:39:   syscall: 'listen',
+2025-12-30T05:20:39:   address: '::',
+2025-12-30T05:20:39:   port: 3001
+2025-12-30T05:20:39: }
+2025-12-30T05:20:39: 
+2025-12-30T05:20:39: > lava@0.1.0 start
+2025-12-30T05:20:39: > next start
+2025-12-30T05:20:39: 
+2025-12-30T05:20:39:  ⨯ Failed to start server
+2025-12-30T05:20:39: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:39:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:39:     at new Promise (<anonymous>) {
+2025-12-30T05:20:39:   code: 'EADDRINUSE',
+2025-12-30T05:20:39:   errno: -98,
+2025-12-30T05:20:39:   syscall: 'listen',
+2025-12-30T05:20:39:   address: '::',
+2025-12-30T05:20:39:   port: 3001
+2025-12-30T05:20:39: }
+2025-12-30T05:20:40: 
+2025-12-30T05:20:40: > lava@0.1.0 start
+2025-12-30T05:20:40: > next start
+2025-12-30T05:20:40: 
+2025-12-30T05:20:40:  ⨯ Failed to start server
+2025-12-30T05:20:40: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:40:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:40:     at new Promise (<anonymous>) {
+2025-12-30T05:20:40:   code: 'EADDRINUSE',
+2025-12-30T05:20:40:   errno: -98,
+2025-12-30T05:20:40:   syscall: 'listen',
+2025-12-30T05:20:40:   address: '::',
+2025-12-30T05:20:40:   port: 3001
+2025-12-30T05:20:40: }
+2025-12-30T05:20:40: 
+2025-12-30T05:20:40: > lava@0.1.0 start
+2025-12-30T05:20:40: > next start
+2025-12-30T05:20:40: 
+2025-12-30T05:20:41:  ⨯ Failed to start server
+2025-12-30T05:20:41: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:41:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:41:     at new Promise (<anonymous>) {
+2025-12-30T05:20:41:   code: 'EADDRINUSE',
+2025-12-30T05:20:41:   errno: -98,
+2025-12-30T05:20:41:   syscall: 'listen',
+2025-12-30T05:20:41:   address: '::',
+2025-12-30T05:20:41:   port: 3001
+2025-12-30T05:20:41: }
+2025-12-30T05:20:41: 
+2025-12-30T05:20:41: > lava@0.1.0 start
+2025-12-30T05:20:41: > next start
+2025-12-30T05:20:41: 
+2025-12-30T05:20:42:  ⨯ Failed to start server
+2025-12-30T05:20:42: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:42:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:42:     at new Promise (<anonymous>) {
+2025-12-30T05:20:42:   code: 'EADDRINUSE',
+2025-12-30T05:20:42:   errno: -98,
+2025-12-30T05:20:42:   syscall: 'listen',
+2025-12-30T05:20:42:   address: '::',
+2025-12-30T05:20:42:   port: 3001
+2025-12-30T05:20:42: }
+2025-12-30T05:20:42: 
+2025-12-30T05:20:42: > lava@0.1.0 start
+2025-12-30T05:20:42: > next start
+2025-12-30T05:20:42: 
+2025-12-30T05:20:42:  ⨯ Failed to start server
+2025-12-30T05:20:42: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:42:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:42:     at new Promise (<anonymous>) {
+2025-12-30T05:20:42:   code: 'EADDRINUSE',
+2025-12-30T05:20:42:   errno: -98,
+2025-12-30T05:20:42:   syscall: 'listen',
+2025-12-30T05:20:42:   address: '::',
+2025-12-30T05:20:42:   port: 3001
+2025-12-30T05:20:42: }
+2025-12-30T05:20:43: 
+2025-12-30T05:20:43: > lava@0.1.0 start
+2025-12-30T05:20:43: > next start
+2025-12-30T05:20:43: 
+2025-12-30T05:20:43:  ⨯ Failed to start server
+2025-12-30T05:20:43: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:43:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:43:     at new Promise (<anonymous>) {
+2025-12-30T05:20:43:   code: 'EADDRINUSE',
+2025-12-30T05:20:43:   errno: -98,
+2025-12-30T05:20:43:   syscall: 'listen',
+2025-12-30T05:20:43:   address: '::',
+2025-12-30T05:20:43:   port: 3001
+2025-12-30T05:20:43: }
+2025-12-30T05:20:43: 
+2025-12-30T05:20:43: > lava@0.1.0 start
+2025-12-30T05:20:43: > next start
+2025-12-30T05:20:43: 
+2025-12-30T05:20:44:  ⨯ Failed to start server
+2025-12-30T05:20:44: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:44:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:44:     at new Promise (<anonymous>) {
+2025-12-30T05:20:44:   code: 'EADDRINUSE',
+2025-12-30T05:20:44:   errno: -98,
+2025-12-30T05:20:44:   syscall: 'listen',
+2025-12-30T05:20:44:   address: '::',
+2025-12-30T05:20:44:   port: 3001
+2025-12-30T05:20:44: }
+2025-12-30T05:20:44: 
+2025-12-30T05:20:44: > lava@0.1.0 start
+2025-12-30T05:20:44: > next start
+2025-12-30T05:20:44: 
+2025-12-30T05:20:45:  ⨯ Failed to start server
+2025-12-30T05:20:45: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:45:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:45:     at new Promise (<anonymous>) {
+2025-12-30T05:20:45:   code: 'EADDRINUSE',
+2025-12-30T05:20:45:   errno: -98,
+2025-12-30T05:20:45:   syscall: 'listen',
+2025-12-30T05:20:45:   address: '::',
+2025-12-30T05:20:45:   port: 3001
+2025-12-30T05:20:45: }
+2025-12-30T05:20:58: 
+2025-12-30T05:20:58: > lava@0.1.0 start
+2025-12-30T05:20:58: > next start
+2025-12-30T05:20:58: 
+2025-12-30T05:20:59:  ⨯ Failed to start server
+2025-12-30T05:20:59: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:20:59:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:20:59:     at new Promise (<anonymous>) {
+2025-12-30T05:20:59:   code: 'EADDRINUSE',
+2025-12-30T05:20:59:   errno: -98,
+2025-12-30T05:20:59:   syscall: 'listen',
+2025-12-30T05:20:59:   address: '::',
+2025-12-30T05:20:59:   port: 3001
+2025-12-30T05:20:59: }
+2025-12-30T05:20:59: 
+2025-12-30T05:20:59: > lava@0.1.0 start
+2025-12-30T05:20:59: > next start
+2025-12-30T05:20:59: 
+2025-12-30T05:21:00:  ⨯ Failed to start server
+2025-12-30T05:21:00: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:00:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:00:     at new Promise (<anonymous>) {
+2025-12-30T05:21:00:   code: 'EADDRINUSE',
+2025-12-30T05:21:00:   errno: -98,
+2025-12-30T05:21:00:   syscall: 'listen',
+2025-12-30T05:21:00:   address: '::',
+2025-12-30T05:21:00:   port: 3001
+2025-12-30T05:21:00: }
+2025-12-30T05:21:00: 
+2025-12-30T05:21:00: > lava@0.1.0 start
+2025-12-30T05:21:00: > next start
+2025-12-30T05:21:00: 
+2025-12-30T05:21:00:  ⨯ Failed to start server
+2025-12-30T05:21:00: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:00:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:00:     at new Promise (<anonymous>) {
+2025-12-30T05:21:00:   code: 'EADDRINUSE',
+2025-12-30T05:21:00:   errno: -98,
+2025-12-30T05:21:00:   syscall: 'listen',
+2025-12-30T05:21:00:   address: '::',
+2025-12-30T05:21:00:   port: 3001
+2025-12-30T05:21:00: }
+2025-12-30T05:21:01: 
+2025-12-30T05:21:01: > lava@0.1.0 start
+2025-12-30T05:21:01: > next start
+2025-12-30T05:21:01: 
+2025-12-30T05:21:01:  ⨯ Failed to start server
+2025-12-30T05:21:01: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:01:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:01:     at new Promise (<anonymous>) {
+2025-12-30T05:21:01:   code: 'EADDRINUSE',
+2025-12-30T05:21:01:   errno: -98,
+2025-12-30T05:21:01:   syscall: 'listen',
+2025-12-30T05:21:01:   address: '::',
+2025-12-30T05:21:01:   port: 3001
+2025-12-30T05:21:01: }
+2025-12-30T05:21:01: 
+2025-12-30T05:21:01: > lava@0.1.0 start
+2025-12-30T05:21:01: > next start
+2025-12-30T05:21:01: 
+2025-12-30T05:21:02:  ⨯ Failed to start server
+2025-12-30T05:21:02: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:02:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:02:     at new Promise (<anonymous>) {
+2025-12-30T05:21:02:   code: 'EADDRINUSE',
+2025-12-30T05:21:02:   errno: -98,
+2025-12-30T05:21:02:   syscall: 'listen',
+2025-12-30T05:21:02:   address: '::',
+2025-12-30T05:21:02:   port: 3001
+2025-12-30T05:21:02: }
+2025-12-30T05:21:02: 
+2025-12-30T05:21:02: > lava@0.1.0 start
+2025-12-30T05:21:02: > next start
+2025-12-30T05:21:02: 
+2025-12-30T05:21:03:  ⨯ Failed to start server
+2025-12-30T05:21:03: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:03:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:03:     at new Promise (<anonymous>) {
+2025-12-30T05:21:03:   code: 'EADDRINUSE',
+2025-12-30T05:21:03:   errno: -98,
+2025-12-30T05:21:03:   syscall: 'listen',
+2025-12-30T05:21:03:   address: '::',
+2025-12-30T05:21:03:   port: 3001
+2025-12-30T05:21:03: }
+2025-12-30T05:21:03: 
+2025-12-30T05:21:03: > lava@0.1.0 start
+2025-12-30T05:21:03: > next start
+2025-12-30T05:21:03: 
+2025-12-30T05:21:03:  ⨯ Failed to start server
+2025-12-30T05:21:03: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:03:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:03:     at new Promise (<anonymous>) {
+2025-12-30T05:21:03:   code: 'EADDRINUSE',
+2025-12-30T05:21:03:   errno: -98,
+2025-12-30T05:21:03:   syscall: 'listen',
+2025-12-30T05:21:03:   address: '::',
+2025-12-30T05:21:03:   port: 3001
+2025-12-30T05:21:03: }
+2025-12-30T05:21:04: 
+2025-12-30T05:21:04: > lava@0.1.0 start
+2025-12-30T05:21:04: > next start
+2025-12-30T05:21:04: 
+2025-12-30T05:21:04:  ⨯ Failed to start server
+2025-12-30T05:21:04: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:04:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:04:     at new Promise (<anonymous>) {
+2025-12-30T05:21:04:   code: 'EADDRINUSE',
+2025-12-30T05:21:04:   errno: -98,
+2025-12-30T05:21:04:   syscall: 'listen',
+2025-12-30T05:21:04:   address: '::',
+2025-12-30T05:21:04:   port: 3001
+2025-12-30T05:21:04: }
+2025-12-30T05:21:05: 
+2025-12-30T05:21:05: > lava@0.1.0 start
+2025-12-30T05:21:05: > next start
+2025-12-30T05:21:05: 
+2025-12-30T05:21:05:  ⨯ Failed to start server
+2025-12-30T05:21:05: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:05:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:05:     at new Promise (<anonymous>) {
+2025-12-30T05:21:05:   code: 'EADDRINUSE',
+2025-12-30T05:21:05:   errno: -98,
+2025-12-30T05:21:05:   syscall: 'listen',
+2025-12-30T05:21:05:   address: '::',
+2025-12-30T05:21:05:   port: 3001
+2025-12-30T05:21:05: }
+2025-12-30T05:21:05: 
+2025-12-30T05:21:05: > lava@0.1.0 start
+2025-12-30T05:21:05: > next start
+2025-12-30T05:21:05: 
+2025-12-30T05:21:06:  ⨯ Failed to start server
+2025-12-30T05:21:06: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:06:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:06:     at new Promise (<anonymous>) {
+2025-12-30T05:21:06:   code: 'EADDRINUSE',
+2025-12-30T05:21:06:   errno: -98,
+2025-12-30T05:21:06:   syscall: 'listen',
+2025-12-30T05:21:06:   address: '::',
+2025-12-30T05:21:06:   port: 3001
+2025-12-30T05:21:06: }
+2025-12-30T05:21:06: 
+2025-12-30T05:21:06: > lava@0.1.0 start
+2025-12-30T05:21:06: > next start
+2025-12-30T05:21:06: 
+2025-12-30T05:21:06:  ⨯ Failed to start server
+2025-12-30T05:21:06: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:06:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:06:     at new Promise (<anonymous>) {
+2025-12-30T05:21:06:   code: 'EADDRINUSE',
+2025-12-30T05:21:06:   errno: -98,
+2025-12-30T05:21:06:   syscall: 'listen',
+2025-12-30T05:21:06:   address: '::',
+2025-12-30T05:21:06:   port: 3001
+2025-12-30T05:21:06: }
+2025-12-30T05:21:07: 
+2025-12-30T05:21:07: > lava@0.1.0 start
+2025-12-30T05:21:07: > next start
+2025-12-30T05:21:07: 
+2025-12-30T05:21:07:  ⨯ Failed to start server
+2025-12-30T05:21:07: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:07:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:07:     at new Promise (<anonymous>) {
+2025-12-30T05:21:07:   code: 'EADDRINUSE',
+2025-12-30T05:21:07:   errno: -98,
+2025-12-30T05:21:07:   syscall: 'listen',
+2025-12-30T05:21:07:   address: '::',
+2025-12-30T05:21:07:   port: 3001
+2025-12-30T05:21:07: }
+2025-12-30T05:21:07: 
+2025-12-30T05:21:07: > lava@0.1.0 start
+2025-12-30T05:21:07: > next start
+2025-12-30T05:21:07: 
+2025-12-30T05:21:08:  ⨯ Failed to start server
+2025-12-30T05:21:08: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:08:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:08:     at new Promise (<anonymous>) {
+2025-12-30T05:21:08:   code: 'EADDRINUSE',
+2025-12-30T05:21:08:   errno: -98,
+2025-12-30T05:21:08:   syscall: 'listen',
+2025-12-30T05:21:08:   address: '::',
+2025-12-30T05:21:08:   port: 3001
+2025-12-30T05:21:08: }
+2025-12-30T05:21:08: 
+2025-12-30T05:21:08: > lava@0.1.0 start
+2025-12-30T05:21:08: > next start
+2025-12-30T05:21:08: 
+2025-12-30T05:21:09:  ⨯ Failed to start server
+2025-12-30T05:21:09: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:09:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:09:     at new Promise (<anonymous>) {
+2025-12-30T05:21:09:   code: 'EADDRINUSE',
+2025-12-30T05:21:09:   errno: -98,
+2025-12-30T05:21:09:   syscall: 'listen',
+2025-12-30T05:21:09:   address: '::',
+2025-12-30T05:21:09:   port: 3001
+2025-12-30T05:21:09: }
+2025-12-30T05:21:09: 
+2025-12-30T05:21:09: > lava@0.1.0 start
+2025-12-30T05:21:09: > next start
+2025-12-30T05:21:09: 
+2025-12-30T05:21:09:  ⨯ Failed to start server
+2025-12-30T05:21:09: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:09:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:09:     at new Promise (<anonymous>) {
+2025-12-30T05:21:09:   code: 'EADDRINUSE',
+2025-12-30T05:21:09:   errno: -98,
+2025-12-30T05:21:09:   syscall: 'listen',
+2025-12-30T05:21:09:   address: '::',
+2025-12-30T05:21:09:   port: 3001
+2025-12-30T05:21:09: }
+2025-12-30T05:21:10: 
+2025-12-30T05:21:10: > lava@0.1.0 start
+2025-12-30T05:21:10: > next start
+2025-12-30T05:21:10: 
+2025-12-30T05:21:10:  ⨯ Failed to start server
+2025-12-30T05:21:10: Error: listen EADDRINUSE: address already in use :::3001
+2025-12-30T05:21:10:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2025-12-30T05:21:10:     at new Promise (<anonymous>) {
+2025-12-30T05:21:10:   code: 'EADDRINUSE',
+2025-12-30T05:21:10:   errno: -98,
+2025-12-30T05:21:10:   syscall: 'listen',
+2025-12-30T05:21:10:   address: '::',
+2025-12-30T05:21:10:   port: 3001
+2025-12-30T05:21:10: }

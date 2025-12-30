@@ -29,6 +29,40 @@ npm run startx  # runs on port 3000
 npm run lint
 ```
 
+## Deployment
+
+### Production Build Process
+1. **Build the application**: `npm run build`
+   - Generates static files in `.next/` directory
+   - Optimizes and minifies assets
+   - Builds search index with Pagefind
+
+2. **Search Index Generation**: Pagefind automatically runs as postbuild step
+   - Indexes the built site from `.next/server/app`
+   - Outputs search files to `public/_pagefind/`
+
+### Deployment Options
+
+#### Static Export (Recommended for CDN)
+Since this is a documentation site built with Nextra, it can be deployed as a static site:
+```bash
+npm run build
+# Deploy the .next/out directory (if static export is configured)
+# Or deploy the entire project for server-side rendering
+```
+
+#### Platform-Specific Deployments
+- **Vercel**: Connect GitHub repository, automatic deployments on push
+- **Netlify**: Deploy from GitHub, configure build command as `npm run build`
+- **GitHub Pages**: Use GitHub Actions with Next.js static export
+- **Docker**: Use Node.js base image, copy built files, serve on port 3000
+
+#### Environment Considerations
+- Ensure Node.js 18+ is available on deployment platform
+- Configure proper environment variables if needed
+- Verify PostCSS and Tailwind CSS build process works in production
+- Test that Pagefind search functionality works after deployment
+
 ## Architecture Overview
 
 ### Content Structure

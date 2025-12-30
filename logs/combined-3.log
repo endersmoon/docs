@@ -1,0 +1,11 @@
+2025-12-30T05:21:14: 
+2025-12-30T05:21:14: > lava@0.1.0 start
+2025-12-30T05:21:14: > next start
+2025-12-30T05:21:14: 
+2025-12-30T05:21:15:    ▲ Next.js 15.3.3
+2025-12-30T05:21:15:    - Local:        http://localhost:3000
+2025-12-30T05:21:15:    - Network:      http://10.120.2.26:3000
+2025-12-30T05:21:15: 
+2025-12-30T05:21:15:  ✓ Starting...
+2025-12-30T05:21:15:  ⚠ The config property `experimental.turbo` is deprecated. Move this setting to `config.turbopack` as Turbopack is now stable.
+2025-12-30T05:21:15:  ✓ Ready in 678ms
